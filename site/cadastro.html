@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+
+	<title>Cadastro de Usuário</title>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="shortcut icon" href="css/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+
+<body id="fundocadastro">
+
+	<div class="blococadastro">
+
+		<form class=" animated bounceInDown" name="formulario" action ="formulario.php" method ="post">
+
+			<label title="Campo obrigatório!">Nome Completo *</label>
+			<input id="inputnome" class="form-control" name="nome" type="text" placeholder="Digite seu nome" pattern="[a-zA-Z\s]+$" title="Atenção! Caracteres aceitos: Letras maiúsculas, minúsculas e espaço. Acentos não permitidos!" />
+
+			<br><br>
+
+			<label title="Campo obrigatório!">Email *</label>
+			<input id="inputemail" class="form-control" name ="email" type="email" placeholder="Digite seu email" pattern="[A-z0-9.]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Atenção! Caracteres aceitos: Letras maiúsculas, minúsculas, números inteiros, _ e .">
+
+			<br><br>
+
+			<label title="Campo obrigatório!">Data de Nascimento *</label>
+			<input id="inputdatanasc" class="form-control" type="text" name ="datanasc" placeholder="dd/mm/aaaa" onkeypress="mascara( this, mdata );" size="14" maxlength="10" title="Atenção! Caracteres aceitos: Números inteiros"/>
+
+			<br><br>
+
+			<label title="Campo obrigatório!">Login *</label>
+			<input id="inputlogin" class="form-control" name ="login" type="text" placeholder= "Digite seu login" pattern="[0-9A-z_]+$" title="Atenção! Caracteres aceitos: Letras maiúsculas, minúsculas, números inteiros e _ " />
+
+			<br><br>
+
+			<label title="Campo obrigatório!">Senha *</label>
+			<input id="inputsenha" class="form-control" name ="senha" type="password" placeholder="Digite sua senha" pattern="[0-9A-z_]+$" title="Atenção! Caracteres aceitos: Letras maiúsculas, minúsculas, números inteiros e _ " />
+
+			<br><br>
+
+			<label title="Campo obrigatório!">Repita sua senha *</label>
+			<input id="inputrsenha" class="form-control" name ="rsenha" type="password" placeholder="Repita sua senha" pattern="[0-9A-z_]+$" />
+
+			<br><br>
+
+			<input  class="form-control btn btn-outline-dark" onclick="return validarcadastro()" type= "submit" value ="Cadastrar"/> 
+
+			<br><br> 
+
+			<a class="form-control btn btn-outline-dark" href = "/index.html"> Voltar </a>
+
+		</form>
+
+		<br>
+
+	</div>
+
+	<div class="center">
+
+		<img class=" animated fadeInDown" id="logocadastro" src="css/img/logo.png" alt="Logo do nome do jogo" title="Logo do jogo">
+
+	</div>
+
+	<script src="js/javascript.js"></script>
+	<script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cloud Platforms</title>
+    <meta charset="utf-8">
+    <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
+    <script src="js/boot.js"></script>
+    <script src="js/preload.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/text2.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/text1.js"></script>
+    <script src="js/game1.js"></script>
+    <script src="js/text3.js"></script>
+    <script src="js/game3.js"></script>
+    <script src="js/creditos.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 
+   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+    <style>
+        #game{
+            margin-left: 9%;
+            margin-right: 9%;
+            margin-top: 3%;
+        }
+    </style>
+            <script>
+            var game = new Phaser.Game(1220,600, Phaser.CANVAS, "game");
+                WebFontConfig = {
+
+    //  'active' means all requested fonts have finished loading
+    //  We set a 1 second delay before calling 'createText'.
+    //  For some reason if we don't the browser cannot render the text the first time it's created.
+    // active: function() { game.time.events.add(Phaser.Timer.SECOND, this); },
+
+    //  The Google Fonts we want to load (specify as many as you like in the array)
+    google: {
+      families: ['Press Start 2P']
+    }
+
+};
+            (function() {
+                game.state.add("Boot",boot);
+                game.state.add("Preload",preload);
+                game.state.add("Menu",gameTitle);
+                game.state.add("text1",text1);
+                game.state.add("Game1",theFase1);
+                game.state.add("text2",text2);
+                game.state.add("Game",theGame);
+                game.state.add("text3",text3);
+                game.state.add("Game3",theFase3);
+                game.state.add("creditos",creditos);
+
+                game.state.start("Boot");
+
+            
+            })();    
+
+            
+        </script>
+</head>
+<body>
+    <div id="game"></div>   
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+   js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.1';
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+
+
+</script>
+
+ <!-- Your share button code -->
+
+
+
+  </script>
+
+<a id="valor" href="http://twitter.com/share" data-text="Fiz 0 pontos nesse game incrível! :D " data-url="" class="twitter-share-button" data-count="horizontal" data-via="WaitingInTheSky" 
+data-lang="pt">Tweet</a>
+<p id="valor"></p>
+
+
+</body>
+</html>

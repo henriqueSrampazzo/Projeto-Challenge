@@ -1,0 +1,413 @@
+/*========================index======================*/
+#fundoindex{
+	background-image: url(img/imgindex.png);
+	background-color: black;
+}
+
+#inputlogin:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#inputsenha:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#inputnome:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#inputemail:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#inputdatanasc:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#inputrsenha:hover{
+	opacity: 0.6;
+	transition: 0.2s ease-out;
+}
+
+#textoindex1{
+	text-decoration: none;
+	color: inherit;
+}
+
+#textoindex2{
+	text-decoration: none;
+	color: inherit;
+}
+
+#textoindex3{
+	text-decoration: none;
+	color: inherit;
+}
+
+#logoindex{
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+
+.blocoindex{
+	margin-top: -1%;
+	width: 250px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper p{
+	width: 190px;
+	height: 35px;
+	color: black;
+	background-color: white;
+	margin-top:-25%;
+	margin-left: -155px;
+	display: block;
+	position: fixed;
+	border-radius: 1%;
+	transition: all 0.3s cubic-bezier(0.800,0,0,1);
+	transition: all 0.3s cubic-bezier(0.800,0,0,1);
+	transition: all 0.3s cubic-bezier(0.800,0,0,1);
+	position: absolute ;
+}
+
+.wrapper p:hover{
+	margin-left: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#logoindex{
+		margin-top: 10%;
+	}
+
+	#logorecupera{
+		margin-top: 10%;
+	}
+
+	#logoranking{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#logoindex{
+		margin-top: 10%;
+	}
+
+	#logorecupera{
+		margin-top: 10%;
+	}
+
+	#logoranking{
+		margin-top: 100px;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#logoindex{
+		margin-top: 10%;
+	}
+
+	#logorecupera{
+		margin-top: 10%;
+	}
+
+	#logoranking{
+		margin-top: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 479px) {
+	#logoindex{
+		margin-top: 10%;
+	}
+
+	#logorecupera{
+		margin-top: 10%;
+	}
+
+	#logoranking{
+		margin-top: 100px;
+	}
+
+}
+@media only screen and (min-width : 1500px) and (max-width : 1920px)
+{ 
+	#logoindex{
+		margin-top: 10px;
+	}
+
+	#logorecupera{
+		margin-top: 100px;
+	}
+
+	#logoranking{
+		margin-top: 100px;
+	}
+}
+
+/*========================cadastro======================*/
+
+#fundocadastro{
+	background-image: url(img/imgcadastro.png);
+	background-color: black;
+}
+
+.blococadastro{
+	margin-top: 3%;
+	width: 250px;
+	color: white;
+	margin-left: 15%;
+	float: left;
+}
+
+#logocadastro{
+	max-width:100%;
+	height:auto;
+	margin-top: 12.3%;
+	text-align: center;
+}
+
+/*========================recupera======================*/
+
+#fundorecupera{
+	background-image: url(img/imgrecupera.png);
+	background-color: black;
+}
+
+
+.blocorecupera{
+	margin-top: -1%;
+	width: 250px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logorecupera{
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+/*========================contato======================*/
+
+#fundocontato{
+	background-image: url(img/imgcontato.png);
+	background-color: black;
+}
+
+.texto{
+	font-family:'Montserrat', sans-serif;
+	font-size: 21px; 
+	padding: 5px;
+	opacity: 1;
+	color: white;
+	text-shadow: 0.8px 0.8px 1.5px  white;
+}
+
+.logocontato{
+
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+/*========================ranking======================*/
+
+.score1{
+	margin-left: 7%;
+	color: white;
+}
+
+.score2{
+	margin-left: 7%;
+	color: white;
+}
+
+.score3{
+	margin-left: 7%;
+	color: white;
+}
+
+.cry{
+
+	/*text-align: left;*/
+	
+}
+
+.cry2{
+
+	
+}
+
+.cry3{
+
+
+}
+
+#fundoranking{
+	background-image: url(img/imgranking.png);
+	background-color: black;
+}
+
+.resultado1{
+
+	width: 350px;
+	height: 600px;
+	overflow: auto;
+	background-color: black; 
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.resultado2{
+
+	width: 350px;
+	height: 600px;
+	overflow: auto;
+	background-color: black;  
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.resultado3{
+
+	width: 350px;
+	height: 600px;
+	overflow: auto;
+	background-color: black;
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+#logoranking{
+	margin-top: 5%;
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.level{
+	font-family:'Raleway', sans-serif;
+	font-size: 28px;
+}
+
+/*========================regras======================*/
+
+#fundoregras{
+	background-image: url(img/imgregras.png);
+	background-color: black;
+}
+
+.logoregras{
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
+
+/*========================jogo======================*/
+
+#fundojogo{
+	background-image: url(img/imgjogo.png);
+	background-color: black;
+}
+
+#game{
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-top: 3%;
+}
+
+.blocoinfo{
+	margin-top: 2%;
+	color: white;
+}
+
+.dado1{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.dado2{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	padding-left: 2%;
+}
+
+.dado3{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	padding-left: 2%;
+}
+
+.dado4{
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	padding-left: 2%;
+}
+
+/*========================ADM======================*/
+
+#fundoadm{
+	background-color: gray;
+}
+
+.tabela{
+	list-style-type:none;
+}
+
+.blocoadm{
+	margin-top: -1%;
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blocobtn{
+	margin-top: -1%;
+	width: 240px;
+	margin-left: 2%;
+}
+
+/*========================alterar======================*/
+
+#fundorecupera{
+	background-image: url(img/imgalterar.png);
+	background-color: black;
+}
+
+.blocoalterar{
+	margin-top: -1%;
+	width: 250px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logoalterar{
+	max-width:100%;
+	height:auto;
+	text-align: center;
+}
